@@ -4,6 +4,7 @@ import './App.css'
 import { TonConnectButton } from '@tonconnect/ui-react';
 import { useCounterContract } from './hooks/useCounterContract';
 import { useTonConnect } from './hooks/useTonConnect';
+// NOTE: TWA in telegram
 import '@twa-dev/sdk';
 
 function App() {

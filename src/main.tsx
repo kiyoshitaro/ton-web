@@ -3,7 +3,7 @@ import App from './App';
 import './index.css';
 import { TonConnectUIProvider } from '@tonconnect/ui-react';
 
-// this manifest is used temporarily for development purposes
+// NOTE: set base here for deploy github page
 const manifestUrl = 'https://kiyoshitaro.github.io/ton-web/tonconnect-manifest.json';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
